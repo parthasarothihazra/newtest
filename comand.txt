@@ -1,0 +1,70 @@
+cd /mnt/E/webdev/test/github/
+git clone https://github.com/parthasarothihazra/testrepositary.git
+git add -A && git commit -m "Test Message"
+git push origin master
+
+
+==============Add and upload to github====================================================================
+git status
+git add ace.php
+#git commit ace.php
+git status
+git commit -m 'Test data added'
+git push origin master
+===============================================================================================================================
+#git push origin master
+
+=======================================================Git Reset =========================================================================================================
+
+git fetch --all 
+git reset --hard origin/master
+
+=======================================================================Git pull============================================================================
+
+git checkout master
+
+git pull https://github.com/parthasarothihazra/newtest
+
+git push origin master
+
+=============================================================================================================================================================
+
+#touch merge.php
+
+git merge-file index.php merge.php ace.php
+
+=================================================================================================================================================================
+
+    git config --global user.name "parthasarothihazra"
+    git config --global user.email "parthasarothi@ablion.in"
+
+
+git checkout testrepositary master
+
+
+=================================================================================================================================================================
+commit to branch
+
+git checkout -b your-new-branch
+
+git add index.php
+
+git commit -m "Commit to branch"
+
+=====================================================================Git branch=======================================================================================
+
+ git branch home-changes
+ git checkout home-changes
+ git add --all
+ git commit -m "home changes"
+ git push origin home-changes
+
+
+https://www.atlassian.com/git/tutorials/using-branches/git-merge
+
+
+
+
+
+
+
